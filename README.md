@@ -11,11 +11,11 @@ Retail store handles stock in large scale on daily basis that makes the monitori
 The proposed solution addresses the problem in managing the retail store inventory using the time series forecasting algorithm. Out of the different models available in this algorithm, SARIMA (Seasonal Autoregressive Integrated Moving Average) model is preferred as it outperforms the others with its ability to forecast future need with past seasonal time series data. SARIMA when compared with the other time series model such as Holt-Winter's Exponential Smoothing model produces smaller MAD (Mean Absolute Deviation) value. This makes SARIMA model feasible to be used for forecasting. SARIMA has three non-seasonal parameters as p(AR order), d(degree of differencing), q(order of MA) and three seasonal parameters as P(seasonal AR order), D(seasonal differencing), Q(seasonal MA order) that are calculated using ACF (Autocorrelation function) and PACF (Partial autocorrelation function). Newsvendor formula is used in the proposed SARIMA model to calculate the optimal order quantity for the inventory. Overall the model predicts the inventory needed to fulfill future customer orders over a period of time with appropriate datasets from the retail store.
 
 ## Base Paper
-* Title
+* Title<br>
 On the Application of ARIMA and LSTM to Predict Order Demand Based on Short Lead Time and On-Time Delivery Requirements
-* Authors
+* Authors<br>
 1. Chien-Chih Wang
 2. Chun-Hua Chien
 3. Amy J. C. Trappey
-* Published year
+* Published year<br>
 2021
