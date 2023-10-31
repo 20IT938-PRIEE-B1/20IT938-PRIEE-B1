@@ -1,5 +1,11 @@
 # Retail Store Stock Inventory Analytics
 
+## Team Details
+Subject code  : 20IT938<br>
+Batch number  : B1<br>
+Team leader   : Nivedha Vijayakumar<br>
+Team members  : 1. Jayani Naara 2. Nivethaa M.<br>
+
 ## Objective
 The objective of the work is to handle and manage the bulk stock in the retail store in an eficient digitized way involving less manual labor. Thus SARIMA time series forecasting model is used to forecast optimal inventory needed to satisfy the customer over a period of time.
 
