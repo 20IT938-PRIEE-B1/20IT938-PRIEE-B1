@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The retail store stock inventory analytics</title>
+</head>
+<body style="background-color: #F7EFE5; margin: auto; width: 50%; text-align: center;">
+    <h1>The forecasted </h1><br><br>
+    <div style="margin: auto; width: 80%;">
+        <h3>Reorder level : {{ o2 }}</h3>
+        <p>When the inventory level falls to this <b>{{ o2 }}</b> point restock the inventory</p><br>
+        <h3>Optimal inventory quantity : {{ o1 }}</h3>
+        <p>Restock the inventory with the <b>{{ o1 }}</b> quantity when the inventory falls to the reorder level calculated</p><br>
+        <h3>Safety stock : {{ o3 }}</h3>
+        <p>Safety stock of <b>{{ o3 }}</b> is maintained to cater at time of uncertainity</p>
+    </div>
+</body>
+</html>
